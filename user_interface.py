@@ -1,9 +1,14 @@
 from contestant import Contestant
 
+from marketing_firm import MarketingFirm
+from sweepstakes_stack_manager import SweepstakesStackManager
+from sweepstakes_queue_manager import SweepstakesQueueManager
+
 
 class UserInterface:
     def __init__(self):
         pass
+
 
     def new_contestant(self):
         registration_num = int(input("Please Enter a registration Number:"))
